@@ -1,0 +1,38 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  color: #333;
+}
+
+.productList {
+  list-style: none;
+  padding: 0;
+}
+
+.productItem {
+  margin: 10px 0;
+  padding: 10px;
+  background: #f4f4f4;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.productItem:hover {
+  background: #ddd;
+}
+
+.productLink {
+  text-decoration: none;
+  color: #0070f3;
+  font-weight: bold;
+}
+
+.productLink:hover {
+  text-decoration: underline;
+}
